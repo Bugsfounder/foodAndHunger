@@ -173,7 +173,7 @@ const Navbar = () => {
                                     }`}></span>
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to="/about"
                                 onClick={() => handleLinkClick("about")}
@@ -185,7 +185,7 @@ const Navbar = () => {
                                 <span className={`absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-green-600 rounded-full transition-all duration-300 ${activeLink === "about" ? "opacity-100 scale-100" : "opacity-0 scale-0"
                                     }`}></span>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link
                                 to="/contact"
